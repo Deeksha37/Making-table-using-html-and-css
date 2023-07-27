@@ -1,0 +1,90 @@
+<html>
+<head>
+    <title> Pratice problem 1 using table concept </title>
+
+    <style>
+        table {
+            width: 700px;
+            background-color: white;
+            margin-top: 20;
+            margin-left: 20;
+            
+        }
+
+        #heading {
+            background-color: mediumaquamarine;  
+            text-align: left;
+                      
+        }
+
+        table,td,th {
+            border: 1px solid black;            
+            border-collapse: collapse;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <table style = "margin-left:auto; margin-right: auto;">
+        <tr>
+            <th id="heading" colspan="3" style= "text-align: left;"> Invoice #12345ABC</th>
+            <th id="heading"> 28 December 2020 </th>
+        </tr>
+
+        <tr>
+            <td>
+                <span>Pay To:</span> <br>
+               The Tech Park<br>
+               123 willow street <br>
+               Boulevard,LA-567892
+           </td>
+
+           <td colspan="3" style= "text-align: left;">
+               <span>Customer:</span> <br>
+               John lark <br>
+               Dummy Apartments <br>
+               276 main street <br>
+               Boulevard,LA-567892
+           </td>
+        </tr>
+
+        <tr>
+            <th id="heading">Name/Decription</th>
+            <th id="heading">Qty.</th>
+            <th id="heading">MRP</th>
+            <th id="heading">Amount</th>            
+        </tr>
+
+        <tr>
+            <td>Biryani</td>
+            <td>3</td>
+            <td>400</td>
+            <td>1200</td>
+        </tr>
+
+        <tr>
+            <td>Chocoalte shake</td>
+            <td>3</td>
+            <td>200</td>
+            <td>600</td>            
+        </tr>
+
+        <tr>
+            <th id="heading" colspan="3" style= "text-align: left;">Subtotal:</th>
+            <td>1800</td>
+        </tr>
+
+        <tr>
+            <th id="heading" colspan="2" style= "text-align: left;">Tax</th>
+            <td>10%</td>
+            <td>180</td>
+        </tr>
+
+        <tr>
+            <th id="heading" colspan="3" style= "text-align: left;">Grand Total:</th>
+            <td>1620</td>
+        </tr>       
+    </table>
+</body>
+</html>
